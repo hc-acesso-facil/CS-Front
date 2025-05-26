@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus Agendamentos - FMUSP</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/avatar-assistente.css" />
+</head>
+<body>
+    <header>
+        <img src="../image/logohc.png" alt="Logo FMUSP" class="logo" />
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamentos.html" class="active">Agendamentos</a></li>
+            <li><a href="central-ajuda.html">Central de Ajuda</a></li>
+            <li><a href="assistente.html">Assistente Digital</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1>MEUS AGENDAMENTOS</h1>
+            <div class="content-box">
+                <div class="meus-agendamentos-container">
+                    <div class="filtros-agendamentos">
+                        <div class="form-group">
+                            <label for="filtro-tipo">Tipo:</label>
+                            <select id="filtro-tipo">
+                                <option value="todos">Todos</option>
+                                <option value="consulta">Consultas</option>
+                                <option value="exame">Exames</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="filtro-status">Status:</label>
+                            <select id="filtro-status">
+                                <option value="todos">Todos</option>
+                                <option value="agendado">Agendados</option>
+                                <option value="realizado">Realizados</option>
+                                <option value="cancelado">Cancelados</option>
+                            </select>
+                        </div>
+                        <button class="btn-filtrar">Filtrar</button>
+                    </div>
+                    
+                    <div class="lista-agendamentos">
+                        <h2>Próximos agendamentos</h2>
+                        
+                        <div class="agendamento-item">
+                            <div class="agendamento-data">
+                                <div class="data-dia">15</div>
+                                <div class="data-mes">JUN</div>
+                            </div>
+                            <div class="agendamento-info">
+                                <h3>Consulta - Cardiologia</h3>
+                                <p>Dr. Carlos Silva</p>
+                                <p>Horário: 14:30</p>
+                                <p>Local: Ambulatório Central - Sala 305</p>
+                            </div>
+                            <div class="agendamento-acoes">
+                                <button class="btn-confirmar">Confirmar presença</button>
+                                <button class="btn-cancelar">Cancelar</button>
+                            </div>
+                        </div>
+                        
+                        <div class="agendamento-item">
+                            <div class="agendamento-data">
+                                <div class="data-dia">22</div>
+                                <div class="data-mes">JUN</div>
+                            </div>
+                            <div class="agendamento-info">
+                                <h3>Exame - Ressonância Magnética</h3>
+                                <p>Setor de Diagnóstico por Imagem</p>
+                                <p>Horário: 09:15</p>
+                                <p>Local: Bloco B - 2º andar</p>
+                                <p class="preparo-alerta">Necessário preparo especial</p>
+                            </div>
+                            <div class="agendamento-acoes">
+                                <button class="btn-confirmar">Confirmar presença</button>
+                                <button class="btn-cancelar">Cancelar</button>
+                                <button class="btn-preparo">Ver preparo</button>
+                            </div>
+                        </div>
+                        
+                        <h2>Histórico de agendamentos</h2>
+                        
+                        <div class="agendamento-item historico">
+                            <div class="agendamento-data">
+                                <div class="data-dia">05</div>
+                                <div class="data-mes">MAI</div>
+                            </div>
+                            <div class="agendamento-info">
+                                <h3>Consulta - Clínica Geral</h3>
+                                <p>Dra. Ana Oliveira</p>
+                                <p>Horário: 10:00</p>
+                                <p>Local: Ambulatório Central - Sala 102</p>
+                                <span class="status realizado">Realizado</span>
+                            </div>
+                            <div class="agendamento-acoes">
+                                <button class="btn-prontuario">Ver prontuário</button>
+                                <button class="btn-remarcar">Remarcar</button>
+                            </div>
+                        </div>
+                        
+                        <div class="agendamento-item historico">
+                            <div class="agendamento-data">
+                                <div class="data-dia">28</div>
+                                <div class="data-mes">ABR</div>
+                            </div>
+                            <div class="agendamento-info">
+                                <h3>Exame - Hemograma Completo</h3>
+                                <p>Laboratório Central</p>
+                                <p>Horário: 08:30</p>
+                                <p>Local: Bloco A - Térreo</p>
+                                <span class="status realizado">Realizado</span>
+                            </div>
+                            <div class="agendamento-acoes">
+                                <button class="btn-resultado">Ver resultado</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <footer>
+        <p>&copy; 2025 FMUSP - Todos os direitos reservados</p>
+    </footer>
+    <a href="assistente.html" class="assistente-flutuante">
+        <div class="avatar-assistente">
+            <img src="../image/assistente/assistente-estatico.png" alt="Assistente Digital">
+        </div>
+        <div class="assistente-texto">Precisa de ajuda?</div>
+    </a>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/avatar-assistente.js"></script>
+</body>
+</html>

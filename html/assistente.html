@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assistente Digital - FMUSP</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/avatar-assistente.css" />
+</head>
+<body>
+    <header>
+        <img src="../image/logohc.png" alt="Logo FMUSP" class="logo" />
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamentos.html">Agendamentos</a></li>
+            <li><a href="central-ajuda.html">Central de Ajuda</a></li>
+            <li><a href="assistente.html" class="active">Assistente Digital</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1>ASSISTENTE DIGITAL</h1>
+            <div class="content-box">
+                <div class="chatbot-container">
+                    <div class="chatbot-mensagens" id="chatbot-mensagens">
+                        <div class="mensagem bot">
+                            <div class="avatar-bot">
+                                <img src="../image/assistente/assistente-estatico.png" alt="Assistente Digital">
+                            </div>
+                            <div class="texto-mensagem">
+                                <p>Olá! Sou a assistente digital do HC. Como posso ajudar?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chatbot-opcoes">
+                        <div class="opcao-bot">
+                            <div class="avatar-bot">
+                                <img src="../image/assistente/assistente-estatico.png" alt="Assistente Digital">
+                            </div>
+                            <div class="texto-opcao">
+                                <p>Olá! Sou a assistente digital do HC.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="opcao-bot">
+                            <div class="avatar-bot">
+                                <img src="../image/assistente/assistente-estatico.png" alt="Assistente Digital">
+                            </div>
+                            <div class="texto-opcao">
+                                <p>Como posso ajudar?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chatbot-input">
+                        <input type="text" id="mensagem-usuario" placeholder="Digite sua mensagem aqui...">
+                        <button id="enviar-mensagem">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <footer>
+        <p>&copy; 2025 FMUSP - Todos os direitos reservados</p>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

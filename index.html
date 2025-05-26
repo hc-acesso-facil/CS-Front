@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FMUSP - Hospital das Clínicas</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/avatar-assistente.css" />
+</head>
+<body>
+    <header>
+        <img src="image/logohc.png" alt="Logo FMUSP" class="logo" />
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="active">Início</a></li>
+            <li><a href="html/integrantes.html">Integrantes</a></li>
+            <li><a href="html/quemsomos.html">Quem Somos</a></li>
+            <li><a href="html/faq.html">FAQ</a></li>
+            <li><a href="html/contato.html">Contato</a></li>
+            <li><a href="html/agendamentos.html">Agendamentos</a></li>
+            <li><a href="html/central-ajuda.html">Central de Ajuda</a></li>
+            <li><a href="html/assistente.html">Assistente Digital</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1>BEM-VINDO AO PORTAL DO HOSPITAL DAS CLÍNICAS</h1>
+            <div class="cadastro-info">
+                <h2>Por que fazer o cadastro?</h2>
+                <p>Cadastre-se no Portal do Hospital das Clínicas e tenha acesso a serviços digitais que facilitam sua jornada de saúde. Com sua conta, você poderá:</p>
+                <ul>
+                    <li>Agendar consultas e exames online</li>
+                    <li>Consultar resultados com segurança</li>
+                    <li>Receber lembretes e orientações médicas</li>
+                    <li>Solicitar renovação de receitas</li>
+                    <li>Organizar seu histórico médico</li>
+                </ul><br>
+
+                <p>Nosso objetivo é oferecer um atendimento mais humanizado, ágil e acessível.</p>
+            </div>
+            <div class="login-container">
+                <div class="login-box">
+                    <img src="image/logohc.png" alt="FMUSP" class="login-logo" />
+                    <p>Acesse sua conta</p>
+                    <input type="text" placeholder="CPF" />
+                    <input type="password" placeholder="Senha" />
+                    <a href="#" class="esqueci">Esqueci senha</a>
+                    <button>Acessar</button>
+                </div>
+                <div class="login-box">
+                    <p>Acesse sua conta pela</p>
+                    <img src="image/govbrlogo.webp" alt="gov.br" class="gov-logo" />
+                    <button class="gov-btn">Entrar com gov.br</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <footer>
+        <p>&copy; 2025 FMUSP - Todos os direitos reservados</p>
+    </footer>
+    <a href="html/assistente.html" class="assistente-flutuante">
+        <div class="avatar-assistente">
+            <img src="image/assistente/assistente-estatico.png" alt="Assistente Digital">
+        </div>
+        <div class="assistente-texto">Precisa de ajuda?</div>
+    </a>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/avatarindex.js"></script>
+</body>
+</html>
