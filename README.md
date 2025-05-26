@@ -54,4 +54,4 @@ O projeto está organizado da seguinte forma:
 
 ## Endereço Repositório do Projeto no GITHUB
 
-(https://github.com/hc-acesso-facil/CS-Front/tree/acbb21d86b87913d7cb7ec4606d5b2d27ce17d40)
+(https://github.com/hc-acesso-facil/CS-Front.git))
