@@ -47,10 +47,10 @@ O projeto está organizado da seguinte forma:
 
 *   **Fellipe Costa de Oliveira**
     *   RM: 564673
-    *   Turma: [PREENCHER TURMA AQUI]
+    *   Turma: 1TDSPI
 *   **Felype Ferreira Maschio**
     *   RM: 563009
-    *   Turma: [PREENCHER TURMA AQUI]
+    *   Turma: 1TDSPI
 
 ## Endereço Repositório do Projeto no GITHUB
 
